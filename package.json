@@ -1,0 +1,29 @@
+{
+  "name": "job-search",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js",
+    "prod": "node index.js "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shukriy/job-search.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shukriy/job-search/issues"
+  },
+  "homepage": "https://github.com/Shukriy/job-search#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.4"
+  }
+}
