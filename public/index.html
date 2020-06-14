@@ -2,55 +2,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Job Search</title>
 </head>
 <body>
-    <h1>Job Search</h1>
-    <p>What is this web app about</p>
-    
-    <!-- Trigger/Open The Modal -->
-    <button id="newEntry">NEW ENTRY</button>
-
-    <H3>Search for application</H3>
-    <input type="jobs">
-    <button id="searchJob">Search</button>
-
-    <div id="applicationsInProgress">
-        <H3>Applications in Process</H3>
-        <!-- https://adrianroselli.com/2017/11/hey-its-still-ok-to-use-tables.html -->
-        <table> 
-            <tr>
-                <th>Start Date</th>
-                <th>Dead line</th>
-                <th>Job Title</th>
-                <th>Company Name</th>
-                <th>Link</th>
-                <th>Contact Person</th>
-                <th>Short Description</th>
-                <th>CV</th>
-                <th>Cover Letter</th>
-            </tr>
-        </table>
-    </div>
-
-    <div id="completesApplications">
-        <H3>Closed job Application</H3>
-
-        <table>
-            <tr>
-                <th>Start Date</th>
-                <th>Completion Date</th>
-                <th>Completion Data</th>
-                <th>Job Title</th>
-                <th>Company Name</th>
-                <th>Link</th>
-                <th>Contact Person</th>
-                <th>Short Description</th>
-                <th>CV</th>
-                <th>Cover Letter</th>
-            </tr>
-        </table>
-    </div>
-
+   <div class="main">
+       <p class="sign">Sign In</p>
+       <form class="form">
+           <input class="userName" type="text" placeholder="Username">
+           <input class="password" type="text" placeholder="Password">
+           <button id="submitBtn">Login</button>
+           <a href="/public/pages/signup.html">Sign up?</a>
+       </form>
+   </div> 
 </body>
 </html>
