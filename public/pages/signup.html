@@ -2,17 +2,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sign Up</title>
+    <title>Job Search</title>
+    <link rel="stylesheet" href="/css/style.css">
+    
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-storage.js"></script>
 </head>
 <body>
-    <div class="signup">
-        <p class="register">Sign Up</p>
-        <form class="form">
-            <input class="userName" type="text" placeholder="Username">
-            <input class="password" type="text" placeholder="Password">
-            <button id="submitBtn">Login</button>
-            <a href="/index.html">Sign In?</a>
+   <div class="main">
+       <h1 class="sign">Sign Up</h1>
+       <form class="form">
+           <input class="emailAddress" type="email" placeholder="Email address">
+           <input class="firstName" type="text" placeholder="First Name">
+           <input class="lastName" type="text" placeholder="Last Name">
+           <input class="currentCareer" type="text" placeholder="Current Job Position">
+           <input class="prospectCareer" type="text" placeholder="Future Career/Job">
+           <input class="password" type="password" placeholder="Password">
+           <input class="cPassword" type="password" placeholder="Confirm Password">
+           <button id="submitBtn">Sign Up</button>
+           <div class="links">
+               <a class="signin" href="/index.html">Already have an account?</a>
+            </div>
         </form>
-    </div> 
+   </div> 
 </body>
 </html>

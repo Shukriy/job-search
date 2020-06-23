@@ -1,18 +1,35 @@
+<!-- <!DOCTYPE html> -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Job Search</title>
+    <link rel="stylesheet" href="/css/style.css">
+
 </head>
 <body>
+    <div>
+        <!-- <img src="/public/img/HomeBackground.jpg" id="bg" alt=""> -->
+    </div>
    <div class="main">
-       <p class="sign">Sign In</p>
-       <form class="form">
-           <input class="userName" type="text" placeholder="Username">
+       <h1 class="sign">Sign In</h1>
+       <div class="form">
+           <input class="email" type="text" placeholder="Email Address">
            <input class="password" type="text" placeholder="Password">
-           <button id="submitBtn">Login</button>
-           <a href="/public/pages/signup.html">Sign up?</a>
-       </form>
+           <button id="submitBtn" >Login</button>
+           <div class="links">
+               <a class="signup" href="pages/signup.html">Sign Up</a>
+                <a class="rememberPassword" href="/pages/requestnewpassword.html">Forgot Password?</a>
+            </div>
+        </div>
    </div> 
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-database.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.1/firebase-storage.js"></script>
+
+   <!-- <script src="js/script.js"></script> -->
+   <script type="module" src="..js/script.js"></script>
 </body>
 </html>
