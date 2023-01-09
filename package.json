@@ -22,7 +22,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "firebase": "^7.15.3",
-    "firebase-admin": "^8.12.1"
+    "firebase-admin": "^11.4.1"
   },
   "devDependencies": {
     "dotenv": "^8.2.0",
